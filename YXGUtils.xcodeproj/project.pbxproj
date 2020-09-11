@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB21E1FE250B2307008F6CD9 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21E1FD250B2307008F6CD9 /* NSArray+Safe.m */; };
 		BB88B70D24DF9A7E00A0AA76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B70C24DF9A7E00A0AA76 /* AppDelegate.m */; };
 		BB88B71024DF9A7E00A0AA76 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B70F24DF9A7E00A0AA76 /* SceneDelegate.m */; };
 		BB88B71324DF9A7E00A0AA76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B71224DF9A7E00A0AA76 /* ViewController.m */; };
@@ -58,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB21E1FC250B2307008F6CD9 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		BB21E1FD250B2307008F6CD9 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		BB21E1FF250B231E008F6CD9 /* Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzling.h; sourceTree = "<group>"; };
 		BB88B70824DF9A7E00A0AA76 /* YXGUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXGUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB88B70B24DF9A7E00A0AA76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB88B70C24DF9A7E00A0AA76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,6 +160,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB21E1FB250B22EC008F6CD9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BB21E1FC250B2307008F6CD9 /* NSArray+Safe.h */,
+				BB21E1FD250B2307008F6CD9 /* NSArray+Safe.m */,
+				BB21E1FF250B231E008F6CD9 /* Swizzling.h */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		BB88B6FF24DF9A7E00A0AA76 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +225,7 @@
 		BB88B73424DFA2C100A0AA76 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BB21E1FB250B22EC008F6CD9 /* New Group */,
 				BB88B73924DFA92A00A0AA76 /* NSDate+YXGDate.h */,
 				BB88B73A24DFA92A00A0AA76 /* NSDate+YXGDate.m */,
 				BB88B73C24DFAA1900A0AA76 /* Foundation+safe.h */,
@@ -381,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB88B77724DFBEF200A0AA76 /* UIViewController+YXGViewController.m in Sources */,
+				BB21E1FE250B2307008F6CD9 /* NSArray+Safe.m in Sources */,
 				BB88B71324DF9A7E00A0AA76 /* ViewController.m in Sources */,
 				BB88B74D24DFB0DF00A0AA76 /* NSObject+YXGObject.m in Sources */,
 				BB88B75624DFB3BC00A0AA76 /* NSTimer+YXGTimer.m in Sources */,

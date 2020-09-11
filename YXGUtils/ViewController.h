@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//通用工具类123
+//通用工具类
 @interface ViewController : UIViewController
 
 
