@@ -47,6 +47,7 @@
 		BB88B78A24DFEDCA00A0AA76 /* UIView+YXGRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B78924DFEDCA00A0AA76 /* UIView+YXGRectCorner.m */; };
 		BB88B78D24DFF04A00A0AA76 /* UIView+YXGGestureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B78C24DFF04A00A0AA76 /* UIView+YXGGestureBlock.m */; };
 		BB88B79024DFF18E00A0AA76 /* UIView+YXGDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB88B78F24DFF18E00A0AA76 /* UIView+YXGDrawView.m */; };
+		BB94067E25CBDB2B002638E8 /* YXGRunLoopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB94067D25CBDB2B002638E8 /* YXGRunLoopMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,8 @@
 		BB88B78C24DFF04A00A0AA76 /* UIView+YXGGestureBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YXGGestureBlock.m"; sourceTree = "<group>"; };
 		BB88B78E24DFF18E00A0AA76 /* UIView+YXGDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YXGDrawView.h"; sourceTree = "<group>"; };
 		BB88B78F24DFF18E00A0AA76 /* UIView+YXGDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YXGDrawView.m"; sourceTree = "<group>"; };
+		BB94067C25CBDB2B002638E8 /* YXGRunLoopMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXGRunLoopMonitor.h; sourceTree = "<group>"; };
+		BB94067D25CBDB2B002638E8 /* YXGRunLoopMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGRunLoopMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 			children = (
 				BB88B77924DFBFC500A0AA76 /* YXGVC.h */,
 				BB88B77A24DFBFC500A0AA76 /* YXGVC.m */,
+				BB94067C25CBDB2B002638E8 /* YXGRunLoopMonitor.h */,
+				BB94067D25CBDB2B002638E8 /* YXGRunLoopMonitor.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -405,6 +410,7 @@
 				BB21E1FE250B2307008F6CD9 /* NSArray+Safe.m in Sources */,
 				BB88B71324DF9A7E00A0AA76 /* ViewController.m in Sources */,
 				BB88B74D24DFB0DF00A0AA76 /* NSObject+YXGObject.m in Sources */,
+				BB94067E25CBDB2B002638E8 /* YXGRunLoopMonitor.m in Sources */,
 				BB88B75624DFB3BC00A0AA76 /* NSTimer+YXGTimer.m in Sources */,
 				BB88B78A24DFEDCA00A0AA76 /* UIView+YXGRectCorner.m in Sources */,
 				BB88B75024DFB19900A0AA76 /* NSObject+YXGRuntime.m in Sources */,

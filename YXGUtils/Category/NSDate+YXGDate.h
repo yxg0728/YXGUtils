@@ -61,10 +61,10 @@ NS_ASSUME_NONNULL_BEGIN
 /** 一年的总天数 */
 + (NSUInteger)daysInYear:(NSDate *)date;
 
-/** 判断是否是润年 */
+/** 判断是否是闰年 */
 - (BOOL)isLeapYear;
 
-/** 判断是否是润年 */
+/** 判断是否是闰年 */
 + (BOOL)isLeapYear:(NSDate *)date;
 
 /** 获取该日期是该年的第几周 */
